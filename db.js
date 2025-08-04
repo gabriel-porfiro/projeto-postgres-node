@@ -5,6 +5,4 @@ import postgres from "postgres";
 const { DATABASE_URL } = process.env;
 const URL = DATABASE_URL
 
-console.log(URL)
-
 export const sql = postgres(URL)
